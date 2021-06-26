@@ -1,4 +1,4 @@
-## Описание задачи
+### Описание задачи
 
 #### Вывести отчет по заявкам за произвольный период в днях (от 1 дня и более)
 Данные нужно забрать с помощью Google Sheets API из документа https://docs.google.com/spreadsheets/d/1Ycg7zTxds9DZnDvTrFcyNNKuTUxg6Yy6WF0a8Wc02WQ
@@ -19,3 +19,7 @@ Metrics:
 Для обработки данных написать код на Python  
 Данные выгружать из Google Sheets и загружать в свой документ через Google Sheets API  
 Для итогового отчёта использовать pivot table Google Sheets
+
+### Результат
+https://docs.google.com/spreadsheets/d/1xWas0rwKUqqll8M1GoMmwK8xByAKfoj4wmtscbQjI7g/edit#gid=1859765491
+
