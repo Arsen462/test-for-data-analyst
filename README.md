@@ -20,6 +20,3 @@ Metrics:
 Данные выгружать из Google Sheets и загружать в свой документ через Google Sheets API  
 Для итогового отчёта использовать pivot table Google Sheets
 
-### Результат
-https://docs.google.com/spreadsheets/d/1xWas0rwKUqqll8M1GoMmwK8xByAKfoj4wmtscbQjI7g/edit#gid=1859765491
-
