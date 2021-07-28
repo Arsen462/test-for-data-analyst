@@ -10,13 +10,13 @@ Dimensions:
 
 Metrics:
 - number of applications
-- number of junk orders (no client has been created based on the order)
-- количество новых заявок (не было заявок и покупок от этого клиента раньше)
-- количество покупателей (кто купил в течение недели после заявки)
-- количество новых покупателей (кто купил в течение недели после заявки, и не покупал раньше)
-- доход от покупок новых покупателей
-#### Итоговый отчёт нужно вывести в свой документ Google Sheets:
-Для обработки данных написать код на Python  
-Данные выгружать из Google Sheets и загружать в свой документ через Google Sheets API  
-Для итогового отчёта использовать pivot table Google Sheets
+- the number of junk orders (no client has been created based on the order)
+- the number of new orders (there were no orders and purchases from this client before)
+- number of buyers (those who bought within a week after the order)
+- the number of new buyers (those who bought within a week after the application, and had not bought earlier)
+- income from new customers’ purchases
+#### The final report needs to be replaced to your Google Sheets document:
+Write Python code to process data  
+Extract data from Google Sheets and load it into your document via Google Sheets API  
+For the final report, use the pivot table Google Sheets  
 
