@@ -1,16 +1,16 @@
-### Описание задачи
+### Task description
 
-#### Вывести отчет по заявкам за произвольный период в днях (от 1 дня и более)
-Данные нужно забрать с помощью Google Sheets API из документа https://docs.google.com/spreadsheets/d/1Ycg7zTxds9DZnDvTrFcyNNKuTUxg6Yy6WF0a8Wc02WQ
-#### Формат отчёта:
+#### Make a report on requests for an arbitrary period in days (from 1 day or more)
+The data needs to be collected using the Google Sheets API from the document https://docs.google.com/spreadsheets/d/1Ycg7zTxds9DZnDvTrFcyNNKuTUxg6Yy6WF0a8Wc02WQ
+#### Report format:
 Dimensions:
-- канал привлечения заявки (d_utm_source)
-- клуб (d_club)
-- менеджер (d_manager)
+- request attraction channel (d_utm_source)
+- club (d_club)
+- manager (d_manager)
 
 Metrics:
-- количество заявок
-- количество мусорных заявок (на основании заявки не создан клиент)
+- number of applications
+- number of junk orders (no client has been created based on the order)
 - количество новых заявок (не было заявок и покупок от этого клиента раньше)
 - количество покупателей (кто купил в течение недели после заявки)
 - количество новых покупателей (кто купил в течение недели после заявки, и не покупал раньше)
