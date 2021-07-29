@@ -10,10 +10,10 @@ Dimensions:
 
 Metrics:
 - number of applications
-- the number of junk orders (no client has been created based on the order)
-- the number of new orders (there were no orders and purchases from this client before)
+- number of junk orders (no client has been created based on the order)
+- number of new orders (there were no orders and purchases from this client before)
 - number of buyers (those who bought within a week after the order)
-- the number of new buyers (those who bought within a week after the application, and had not bought earlier)
+- number of new buyers (those who bought within a week after the application, and had not bought earlier)
 - income from new customers’ purchases
 #### The final report needs to be replaced to your Google Sheets document:
 Write Python code to process data  
